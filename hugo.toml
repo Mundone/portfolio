@@ -1,4 +1,4 @@
 baseURL = 'https://mundone.github.io/hugo-blog/'
 languageCode = 'mn'
 title = 'Блог'
-theme = "ananke"
+theme = "PaperMod"
