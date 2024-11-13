@@ -9,9 +9,9 @@
 <title>Блог</title>
 
 <meta name="description" content="">
-<meta name="author" content="">
+<meta name="author" content="David Hwang">
 <link rel="canonical" href="http://localhost:1313/hugo-blog/">
-<link crossorigin="anonymous" href="/hugo-blog/assets/css/stylesheet.d72444526d7ecbdb0015438a7fa89054a658bf759d0542e2e5df81ce94b493ee.css" integrity="sha256-1yREUm1&#43;y9sAFUOKf6iQVKZYv3WdBULi5d&#43;BzpS0k&#43;4=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/hugo-blog/assets/css/stylesheet.70cee00e27e2f383edc290e1a139234bf06608dbe313ba44b7d326235231f7b2.css" integrity="sha256-cM7gDifi84PtwpDhoTkjS/BmCNvjE7pEt9MmI1Ix97I=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/hugo-blog/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/hugo-blog/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/hugo-blog/favicon-32x32.png">
@@ -100,23 +100,97 @@
             </div>
         </div>
         <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/hugo-blog/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/hugo-blog/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/hugo-blog/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
 <main class="main"> 
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>the dev playbook</h1>
+    </header>
+    <div class="entry-content">
+        <pre><code>  Welcome to the **dev playbook** 🎉
 
-<article class="first-entry"> 
+  - This is a space where I will mostly be sharing about Go &amp; Kubernetes 🙂
+</code></pre>
+
+    </div>
+    <footer class="entry-footer">
+        <div class="social-icons" >
+    <a href="https://github.com/dhij" target="_blank" rel="noopener noreferrer me"
+        title="Github">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+    </a>
+    <a href="https://www.youtube.com/@dhij" target="_blank" rel="noopener noreferrer me"
+        title="Youtube">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
+    </path>
+    <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+</svg>
+    </a>
+    <a href="index.xml" target="_blank" rel="noopener noreferrer me"
+        title="Rss">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 11a9 9 0 0 1 9 9" />
+    <path d="M4 4a16 16 0 0 1 16 16" />
+    <circle cx="5" cy="19" r="1" />
+</svg>
+    </a>
+</div>
+
+    </footer>
+</article>
+
+<article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">My First Post
+    <h2 class="entry-hint-parent">Demystifying Goroutines - Channels, WaitGroup, Cancellation
     </h2>
   </header>
   <div class="entry-content">
-    <p>Introduction This is bold text, and this is emphasized text. test
-Visit the Hugo website!
-</p>
+    <p>If you have rough ideas on how goroutines work but never took the time to learn the idiomatic approach and why we want to run goroutines certain way, this blog will be of help. In this post, I will be summarizing what I have learned from Chapter 8: Goroutines and Channels of the Go Programming Language book as well as The Go Blog on Go Concurrency Patterns.
+This blog post will be helpful if you are not familiar with any of the below:
+...</p>
   </div>
-  <footer class="entry-footer"><span title='2024-01-14 07:07:07 +0100 +0100'>January 14, 2024</span></footer>
-  <a class="entry-link" aria-label="post link to My First Post" href="http://localhost:1313/hugo-blog/posts/my-first-post/"></a>
+  <footer class="entry-footer"><span title='2023-09-09 13:51:42 -0400 -0400'>September 9, 2023</span>&nbsp;·&nbsp;David Hwang</footer>
+  <a class="entry-link" aria-label="post link to Demystifying Goroutines - Channels, WaitGroup, Cancellation" href="http://localhost:1313/hugo-blog/docs/goroutines/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Deploying a Blog Powered by Hugo to Github Pages w/ Custom Domain via Github Actions
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>This post provides a step-by-step guide on how you can create this blog powered by Hugo, configure Github Actions to publish to Github Pages, and link custom domain to your Github Pages.
+This guide is also available on Youtube here.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-02-19 11:42:25 -0500 -0500'>February 19, 2023</span>&nbsp;·&nbsp;David Hwang</footer>
+  <a class="entry-link" aria-label="post link to Deploying a Blog Powered by Hugo to Github Pages w/ Custom Domain via Github Actions" href="http://localhost:1313/hugo-blog/docs/deploy-hugo-to-github-pages/"></a>
 </article>
     </main>
     

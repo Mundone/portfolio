@@ -6,6 +6,49 @@
     <description>Recent content in Tags on Блог</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>mn</language>
+    <lastBuildDate>Sat, 09 Sep 2023 13:51:42 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/hugo-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go Channel</title>
+      <link>http://localhost:1313/hugo-blog/tags/go-channel/</link>
+      <pubDate>Sat, 09 Sep 2023 13:51:42 -0400</pubDate>
+      <guid>http://localhost:1313/hugo-blog/tags/go-channel/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Golang</title>
+      <link>http://localhost:1313/hugo-blog/tags/golang/</link>
+      <pubDate>Sat, 09 Sep 2023 13:51:42 -0400</pubDate>
+      <guid>http://localhost:1313/hugo-blog/tags/golang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Goroutine</title>
+      <link>http://localhost:1313/hugo-blog/tags/goroutine/</link>
+      <pubDate>Sat, 09 Sep 2023 13:51:42 -0400</pubDate>
+      <guid>http://localhost:1313/hugo-blog/tags/goroutine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github Actions</title>
+      <link>http://localhost:1313/hugo-blog/tags/github-actions/</link>
+      <pubDate>Sun, 19 Feb 2023 11:42:25 -0500</pubDate>
+      <guid>http://localhost:1313/hugo-blog/tags/github-actions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github Pages</title>
+      <link>http://localhost:1313/hugo-blog/tags/github-pages/</link>
+      <pubDate>Sun, 19 Feb 2023 11:42:25 -0500</pubDate>
+      <guid>http://localhost:1313/hugo-blog/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/hugo-blog/tags/hugo/</link>
+      <pubDate>Sun, 19 Feb 2023 11:42:25 -0500</pubDate>
+      <guid>http://localhost:1313/hugo-blog/tags/hugo/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

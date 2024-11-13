@@ -6,16 +6,23 @@
     <description>Recent content on Блог</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>mn</language>
-    <lastBuildDate>Sun, 14 Jan 2024 07:07:07 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 09 Sep 2023 13:51:42 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/hugo-blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/hugo-blog/posts/my-first-post/</link>
-      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
-      <guid>http://localhost:1313/hugo-blog/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text. test&lt;/p&gt;
-&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
+      <title>Demystifying Goroutines - Channels, WaitGroup, Cancellation</title>
+      <link>http://localhost:1313/hugo-blog/docs/goroutines/</link>
+      <pubDate>Sat, 09 Sep 2023 13:51:42 -0400</pubDate>
+      <guid>http://localhost:1313/hugo-blog/docs/goroutines/</guid>
+      <description>&lt;p&gt;If you have rough ideas on how goroutines work but never took the time to learn the idiomatic approach and why we want to run goroutines certain way, this blog will be of help. In this post, I will be summarizing what I have learned from &lt;code&gt;Chapter 8: Goroutines and Channels&lt;/code&gt; of the &lt;a href=&#34;https://amzn.to/45LKKfM&#34;&gt;Go Programming Language&lt;/a&gt; book as well as &lt;a href=&#34;https://go.dev/blog/pipelines&#34;&gt;The Go Blog on Go Concurrency Patterns&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This blog post will be helpful if you are not familiar with any of the below:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deploying a Blog Powered by Hugo to Github Pages w/ Custom Domain via Github Actions</title>
+      <link>http://localhost:1313/hugo-blog/docs/deploy-hugo-to-github-pages/</link>
+      <pubDate>Sun, 19 Feb 2023 11:42:25 -0500</pubDate>
+      <guid>http://localhost:1313/hugo-blog/docs/deploy-hugo-to-github-pages/</guid>
+      <description>&lt;p&gt;This post provides a step-by-step guide on how you can create this blog powered by Hugo, configure Github Actions to publish to Github Pages, and link custom domain to your Github Pages.&lt;/p&gt;
+&lt;p&gt;This guide is also available on Youtube &lt;a href=&#34;https://www.youtube.com/watch?v=_QSr2_pxIJs&amp;amp;ab_channel=dhij&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
