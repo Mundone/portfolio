@@ -1,28 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Блог</title>
-    <link>http://localhost:1313/hugo-blog/</link>
-    <description>Recent content on Блог</description>
+    <title>Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Blog</description>
     <generator>Hugo -- 0.138.0</generator>
-    <language>mn</language>
-    <lastBuildDate>Sat, 09 Sep 2023 13:51:42 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/hugo-blog/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>Copyright © 2024–2024, Munkh-Ochir; all rights reserved.</copyright>
+    <lastBuildDate>Thu, 14 Nov 2024 10:08:06 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Demystifying Goroutines - Channels, WaitGroup, Cancellation</title>
-      <link>http://localhost:1313/hugo-blog/docs/goroutines/</link>
-      <pubDate>Sat, 09 Sep 2023 13:51:42 -0400</pubDate>
-      <guid>http://localhost:1313/hugo-blog/docs/goroutines/</guid>
-      <description>&lt;p&gt;If you have rough ideas on how goroutines work but never took the time to learn the idiomatic approach and why we want to run goroutines certain way, this blog will be of help. In this post, I will be summarizing what I have learned from &lt;code&gt;Chapter 8: Goroutines and Channels&lt;/code&gt; of the &lt;a href=&#34;https://amzn.to/45LKKfM&#34;&gt;Go Programming Language&lt;/a&gt; book as well as &lt;a href=&#34;https://go.dev/blog/pipelines&#34;&gt;The Go Blog on Go Concurrency Patterns&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This blog post will be helpful if you are not familiar with any of the below:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Deploying a Blog Powered by Hugo to Github Pages w/ Custom Domain via Github Actions</title>
-      <link>http://localhost:1313/hugo-blog/docs/deploy-hugo-to-github-pages/</link>
-      <pubDate>Sun, 19 Feb 2023 11:42:25 -0500</pubDate>
-      <guid>http://localhost:1313/hugo-blog/docs/deploy-hugo-to-github-pages/</guid>
-      <description>&lt;p&gt;This post provides a step-by-step guide on how you can create this blog powered by Hugo, configure Github Actions to publish to Github Pages, and link custom domain to your Github Pages.&lt;/p&gt;
-&lt;p&gt;This guide is also available on Youtube &lt;a href=&#34;https://www.youtube.com/watch?v=_QSr2_pxIJs&amp;amp;ab_channel=dhij&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
+      <title>Birthday</title>
+      <link>http://localhost:1313/post/birthday/</link>
+      <pubDate>Thu, 14 Nov 2024 10:08:06 +0800</pubDate>
+      <guid>http://localhost:1313/post/birthday/</guid>
+      <description>&lt;p&gt;Тэр өчигдөр надаар ийм торт үлээлгэсэн юм&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;tort&#34; loading=&#34;lazy&#34; src=&#34;../files/post2/tort.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Бүр эхнээс нь эхэлье. 11-р сарын 13-нд миний төрсөн өдөр учраас 11-р сарын 12-нд бид 2 түүнийд хонохоор тохиролцсон байлаа. Би эртхэн ажил тарж, хамт өнгөрөөх цагаа ихэсгэхийн тулд ажилдаа эрт очихоор төлөвлөж байгаагаа түүнд өмнөх өдөр нь хэлсэн боловч бээр тэрбээр өглөө эмнэлгээр явж хүнээс юм авч, цайны цагаар эгчдээ өгөх явуулын ажилтайгаа хэлж, &lt;code&gt;Эрт сэрэх хэрэггүй ээ, угаасаа би орой тарна.&lt;/code&gt; гэсэн утгатай үгээр хариу барьлаа.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

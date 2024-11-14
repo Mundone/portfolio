@@ -1,51 +1,138 @@
-baseURL = "https://mundone.github.io/hugo-blog/"
-languageCode = "mn"
-title = "Блог"
+baseURL = "https://mundone.github.io/"
+author = "Munkh-Ochir"
+copyright = "Copyright © 2024–2024, Munkh-Ochir; all rights reserved."
+paginate = 4
 theme = "PaperMod"
 enableEmoji= "true"
+defaultContentLanguage = 'en'
+
+[languages]
+  [languages.mn]
+    languageName = 'Mongolian'
+    title = 'Блог'
+    weight = 1
+    [languages.mn.menu]
+      [[languages.mn.menu.main]]
+        pageref = "/"
+        name = "home"
+        weight = 1
+      [[languages.mn.menu.main]]
+        name = 'төрөл'
+        pageref = '/categories'
+        weight = 10
+      [[languages.mn.menu.main]]
+        name = 'шошго'
+        pageref = '/tags/'
+        weight = 20
+      [[languages.mn.menu.main]]
+        name = 'архив'
+        pageref = '/archives/'
+        weight = 30
+      [[languages.mn.menu.main]]
+        name = "search"
+        pageref = "/search/"
+        weight = 40
+    [languages.mn.params]
+      subtitle = 'Referenz, Tutorials und Erklärungen'
+      author = "Мөнх-Очир"
+      reading_speed = 200
+    [languages.mn.params.homeInfoParams]
+      Title = "the munkh-ochir place"
+      Content = """
+        Welcome to the **the munkh-ochir place** 🎉
+
+        - Энд би сурсан бүхнээ бичнэ ээ 🙂
+      """
+
+  [languages.en]
+    languageName = 'English'
+    title = 'Blog'
+    weight = 2
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        pageref = "/"
+        name = "home"
+        weight = 1
+      [[languages.en.menu.main]]
+        name = 'categories'
+        pageref = '/categories/'
+        weight = 10
+      [[languages.en.menu.main]]
+        name = 'tags'
+        pageref = '/tags/'
+        weight = 20
+      [[languages.en.menu.main]]
+        name = 'archives'
+        pageref = '/archives/'
+        weight = 30
+      [[languages.en.menu.main]]
+        name = "search"
+        pageref = "/search/"
+        weight = 40
+    [languages.en.params]
+      subtitle = 'Reference, Tutorials, and Explanations'
+      author = "Munkh-Ochir"
+      reading_speed = 179
+    [languages.en.params.homeInfoParams]
+      Title = "the munkh-ochir place"
+      Content = """
+        Welcome to the **the munkh-ochir place** 🎉
+
+        - Энд би сурсан бүхнээ бичнэ ээ 🙂
+      """
+
+[outputs]
+  home = [ "HTML", "RSS", "JSON" ]
+  section = [ "HTML", "print", "RSS"]
+
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
 [params]
-  author = "David Hwang"
+  ShowReadingTime = true
+  ShowBreadCrumbs= true
+  ShowToc= false
+  TocOpen= false
+  ShowPostNavLinks= true
+  defaultTheme= "auto"
 
-  [params.homeInfoParams]
-    Title = "the dev playbook"
-    Content = """
-      Welcome to the **dev playbook** 🎉
+  ShowShareButtons = false
+  ShowCodeCopyButtons = false
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
 
-      - This is a space where I will mostly be sharing about Go & Kubernetes 🙂
-    """
+
+  [params.taxonomy]
+    taxonomyCloud = [ "tags", "categories" ]
+    taxonomyCloudTitle = [ "Tag Cloud", "Categories" ]
+    taxonomyPageHeader = [ "tags", "categories" ]
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1_000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = [ "title", "permalink", "summary", "content" ]
 
   [[params.socialIcons]]
     name = "Github"
-    url = "https://github.com/dhij"
+    url = "https://github.com/Mundone"
 
-  [[params.socialIcons]]
-    name = "Youtube"
-    url = "https://www.youtube.com/@dhij"
+  #[[params.socialIcons]]
+   # name = "Youtube"
+    #url = "https://www.youtube.com/@dhij"
 
-  [[params.socialIcons]]
-    name = "Rss"
-    url = "index.xml"
-
-  ShowReadingTime = true
-  ShowShareButtons = true
-
-
-
-[menu]
-  [[menu.main]]
-    identifier = "categories"
-    name = "Categories"
-    url = "/categories/"
-    weight = 10
-
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 20
-
-  [[menu.main]]
-    identifier = "archives"
-    name = "Archives"
-    url = "/archives/"
-    weight = 30
+  #[[params.socialIcons]]
+  #  name = "Rss"
+   # url = "index.xml"
+    
